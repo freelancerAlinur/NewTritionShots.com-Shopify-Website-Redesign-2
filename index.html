@@ -1,0 +1,680 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NewTrition Shots - Premium Energy Supplements</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#ef4444',
+secondary: '#1f2937'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+<style>
+:where([class^="ri-"])::before {
+content: "\f3c2";
+}
+body {
+font-family: 'Inter', sans-serif;
+}
+.hero-gradient {
+background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #2d2d2d 100%);
+}
+.glass-effect {
+backdrop-filter: blur(10px);
+background: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.floating-animation {
+animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+0%, 100% { transform: translateY(0px); }
+50% { transform: translateY(-20px); }
+}
+.gradient-text {
+background: linear-gradient(135deg, #ef4444 0%, #f97316 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.product-glow {
+box-shadow: 0 0 40px rgba(239, 68, 68, 0.3);
+}
+.section-divider {
+background: linear-gradient(90deg, transparent 0%, #ef4444 50%, transparent 100%);
+height: 2px;
+width: 100px;
+}
+</style>
+</head>
+<body class="bg-gray-900 text-white antialiased">
+<!-- Header -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
+<div class="max-w-7xl mx-auto px-6 lg:px-8 py-4">
+<div class="flex items-center justify-between">
+<!-- Logo -->
+<div class="flex items-center">
+<div class="w-8 h-8 flex items-center justify-center bg-primary rounded-lg mr-3">
+<span class="text-white font-black text-lg">N</span>
+</div>
+<span class="font-['Pacifico'] text-xl text-gray-900">NewTrition</span>
+</div>
+
+<!-- Navigation -->
+<nav class="hidden lg:flex items-center space-x-8">
+<a href="#home" class="text-gray-900 hover:text-primary transition-colors font-medium">Home</a>
+<a href="#products" class="text-gray-900 hover:text-primary transition-colors font-medium">Products</a>
+<a href="#science" class="text-gray-900 hover:text-primary transition-colors font-medium">Science</a>
+<a href="#about" class="text-gray-900 hover:text-primary transition-colors font-medium">About</a>
+<a href="#contact" class="text-gray-900 hover:text-primary transition-colors font-medium">Contact</a>
+</nav>
+
+<!-- Actions -->
+<div class="flex items-center space-x-4">
+<button class="w-9 h-9 flex items-center justify-center text-gray-700 hover:text-primary transition-colors">
+<i class="ri-search-line text-lg"></i>
+</button>
+<button class="w-9 h-9 flex items-center justify-center text-gray-700 hover:text-primary transition-colors relative">
+<i class="ri-shopping-cart-line text-lg"></i>
+<span class="absolute -top-1 -right-1 w-4 h-4 bg-primary text-white text-xs rounded-full flex items-center justify-center font-semibold">2</span>
+</button>
+<button class="bg-primary hover:bg-red-600 text-white px-6 py-2 !rounded-button font-semibold transition-colors whitespace-nowrap">
+Shop Now
+</button>
+<button class="lg:hidden w-9 h-9 flex items-center justify-center text-gray-700">
+<i class="ri-menu-line text-lg"></i>
+</button>
+</div>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section id="home" class="relative min-h-screen bg-white overflow-hidden pt-20">
+<!-- Background Pattern -->
+<div class="absolute inset-0 opacity-5">
+<div class="absolute top-0 left-0 w-full h-full" style="background-image: url('data:image/svg+xml,<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><g fill=\"%23ef4444\" fill-opacity=\"0.1\"><circle cx=\"30\" cy=\"30\" r=\"2\"/></g></g></svg>'); background-repeat: repeat;"></div>
+</div>
+
+<!-- Hero Content -->
+<div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 min-h-screen flex items-center">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center w-full py-20">
+<!-- Left Content -->
+<div class="space-y-10">
+<div class="space-y-6">
+<div class="inline-flex items-center px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-primary font-semibold text-sm tracking-wide">
+<span class="w-2 h-2 bg-primary rounded-full mr-3"></span>
+CLINICALLY TESTED FORMULA
+</div>
+<h1 class="text-5xl lg:text-7xl font-black leading-none text-gray-900">
+Unleash Your<br>
+<span class="text-primary">Peak Energy</span>
+</h1>
+<p class="text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-xl">
+Science-backed energy shots that deliver sustained power without the crash. Trusted by professionals worldwide.
+</p>
+</div>
+
+<!-- Key Benefits Row -->
+<div class="grid grid-cols-3 gap-6 py-8 border-y border-gray-200">
+<div class="text-center">
+<div class="text-2xl font-black text-primary mb-1">6HR+</div>
+<div class="text-sm text-gray-600 font-medium">SUSTAINED ENERGY</div>
+</div>
+<div class="text-center">
+<div class="text-2xl font-black text-primary mb-1">0g</div>
+<div class="text-sm text-gray-600 font-medium">SUGAR</div>
+</div>
+<div class="text-center">
+<div class="text-2xl font-black text-primary mb-1">250mg</div>
+<div class="text-sm text-gray-600 font-medium">CAFFEINE</div>
+</div>
+</div>
+
+<!-- CTA Buttons -->
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-primary hover:bg-red-600 text-white px-8 py-4 !rounded-button font-bold text-lg transition-all duration-300 whitespace-nowrap hover:shadow-lg">
+Shop Energy Shots
+</button>
+<button class="border-2 border-gray-300 text-gray-900 hover:border-primary hover:text-primary px-8 py-4 !rounded-button font-bold text-lg transition-all duration-300 whitespace-nowrap">
+View Lab Results
+</button>
+</div>
+
+<!-- Social Proof -->
+<div class="flex items-center space-x-6 pt-4">
+<div class="flex items-center">
+<div class="flex -space-x-2">
+<img src="https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20confident%20business%20person%2C%20clean%20corporate%20portrait%2C%20high-quality%20professional%20photography%2C%20modern%20business%20attire&width=40&height=40&seq=avatar1&orientation=squarish" alt="Customer" class="w-8 h-8 rounded-full border-2 border-white">
+<img src="https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20athletic%20woman%2C%20clean%20fitness%20portrait%2C%20high-quality%20sports%20photography%2C%20modern%20athletic%20wear&width=40&height=40&seq=avatar2&orientation=squarish" alt="Customer" class="w-8 h-8 rounded-full border-2 border-white">
+<img src="https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20young%20entrepreneur%2C%20clean%20modern%20portrait%2C%20high-quality%20professional%20photography%2C%20business%20casual%20attire&width=40&height=40&seq=avatar3&orientation=squarish" alt="Customer" class="w-8 h-8 rounded-full border-2 border-white">
+</div>
+<div class="ml-3">
+<div class="flex items-center text-yellow-400">
+<i class="ri-star-fill text-sm"></i>
+<i class="ri-star-fill text-sm"></i>
+<i class="ri-star-fill text-sm"></i>
+<i class="ri-star-fill text-sm"></i>
+<i class="ri-star-fill text-sm"></i>
+</div>
+<p class="text-sm text-gray-600">Rated 4.9/5 by 12,000+ customers</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Right Content - Product Hero -->
+<div class="relative">
+<div class="relative mx-auto max-w-lg">
+<!-- Main Product Image -->
+<div class="relative">
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/20 to-orange-500/20 rounded-3xl blur-3xl"></div>
+<img src="https://readdy.ai/api/search-image?query=Premium%20energy%20shot%20bottle%20with%20modern%20clean%20packaging%20design%2C%20professional%20product%20photography%20on%20white%20background%2C%20minimalist%20supplement%20branding%20with%20bold%20typography%2C%20high-end%20commercial%20photography%20style&width=500&height=700&seq=hero-product-clean&orientation=portrait"
+alt="NewTrition Extra Strength Energy Shot" class="relative w-full h-auto">
+</div>
+
+<!-- Product Info Cards -->
+<div class="absolute -left-8 top-1/3 bg-white rounded-2xl shadow-xl p-4 border border-gray-100 hidden lg:block">
+<div class="text-center">
+<div class="text-lg font-black text-primary mb-1">250mg</div>
+<div class="text-xs text-gray-600 font-medium">Natural Caffeine</div>
+</div>
+</div>
+
+<div class="absolute -right-8 top-1/2 bg-white rounded-2xl shadow-xl p-4 border border-gray-100 hidden lg:block">
+<div class="text-center">
+<div class="text-lg font-black text-green-600 mb-1">B12</div>
+<div class="text-xs text-gray-600 font-medium">High Potency</div>
+</div>
+</div>
+
+<div class="absolute -left-8 bottom-1/3 bg-white rounded-2xl shadow-xl p-4 border border-gray-100 hidden lg:block">
+<div class="text-center">
+<div class="text-lg font-black text-blue-600 mb-1">Zero</div>
+<div class="text-xs text-gray-600 font-medium">Sugar Added</div>
+</div>
+</div>
+
+<!-- Bestseller Badge -->
+<div class="absolute -top-4 -right-4 bg-primary text-white px-4 py-2 rounded-full font-bold text-sm shadow-lg">
+#1 BESTSELLER
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Content Overlay -->
+<div class="relative z-10 w-full h-full flex items-center">
+<div class="w-full px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen">
+<!-- Left Content -->
+<div class="space-y-8">
+<div class="space-y-6">
+<h1 class="text-5xl lg:text-7xl font-black leading-tight">
+FUEL YOUR MIND.<br>
+<span class="text-primary">POWER YOUR BODY</span>
+</h1>
+<p class="text-xl text-gray-300 max-w-lg">
+The NEW Science of Nutrition
+</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-primary hover:bg-red-600 text-white px-8 py-4 !rounded-button font-bold text-lg transition-colors whitespace-nowrap">
+SHOP NOW
+</button>
+<button class="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 !rounded-button font-bold text-lg transition-all whitespace-nowrap">
+LEARN MORE
+</button>
+</div>
+</div>
+<!-- Right Content - Product Info -->
+<div class="space-y-8 lg:pl-12">
+<div class="space-y-4">
+<h2 class="text-4xl lg:text-5xl font-black">
+EXTRA STRENGTH<br>
+<span class="text-primary">ENERGY SHOT</span>
+</h2>
+<p class="text-xl text-gray-300">
+FAST ENERGY • LASTING POWER • ZERO SUGAR
+</p>
+</div>
+<!-- Benefits Badges -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+<div class="text-center">
+<div class="w-20 h-20 mx-auto bg-blue-500 rounded-full flex items-center justify-center mb-3">
+<div class="text-center">
+<div class="text-2xl font-black">250</div>
+<div class="text-xs">MG</div>
+</div>
+</div>
+<p class="text-sm font-bold">CAFFEINE</p>
+</div>
+<div class="text-center">
+<div class="w-20 h-20 mx-auto bg-green-500 rounded-full flex items-center justify-center mb-3">
+<div class="text-center">
+<div class="text-xl font-black">1,667</div>
+<div class="text-xs">MG</div>
+</div>
+</div>
+<p class="text-sm font-bold">ENERGY BLEND</p>
+</div>
+<div class="text-center">
+<div class="w-20 h-20 mx-auto bg-pink-500 rounded-full flex items-center justify-center mb-3">
+<div class="text-center">
+<div class="text-xl font-black">2,119</div>
+<div class="text-xs">MG</div>
+</div>
+</div>
+<p class="text-sm font-bold">HIGH-POTENCY B12</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Features Section -->
+<section class="py-24 bg-gray-50">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<!-- Section Header -->
+<div class="text-center mb-16">
+<h2 class="text-4xl lg:text-5xl font-black text-gray-900 mb-6">
+Why Professionals Choose<br>
+<span class="text-primary">NewTrition Shots</span>
+</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Backed by science, trusted by professionals across industries who demand peak performance.
+</p>
+</div>
+
+<!-- Features Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="group text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100">
+<div class="w-16 h-16 mx-auto bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+<i class="ri-timer-flash-line text-2xl text-primary"></i>
+</div>
+<h3 class="text-xl font-bold mb-4 text-gray-900">Fast Acting</h3>
+<p class="text-gray-600 leading-relaxed">
+Energy kicks in within 15 minutes and sustains for 6+ hours without crashes
+</p>
+</div>
+
+<div class="group text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100">
+<div class="w-16 h-16 mx-auto bg-blue-500/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-500/20 transition-colors">
+<i class="ri-brain-line text-2xl text-blue-600"></i>
+</div>
+<h3 class="text-xl font-bold mb-4 text-gray-900">Mental Focus</h3>
+<p class="text-gray-600 leading-relaxed">
+Nootropic ingredients enhance concentration and cognitive performance
+</p>
+</div>
+
+<div class="group text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100">
+<div class="w-16 h-16 mx-auto bg-green-500/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-green-500/20 transition-colors">
+<i class="ri-shield-check-line text-2xl text-green-600"></i>
+</div>
+<h3 class="text-xl font-bold mb-4 text-gray-900">Clean Ingredients</h3>
+<p class="text-gray-600 leading-relaxed">
+No artificial additives, zero sugar, premium natural ingredients only
+</p>
+</div>
+
+<div class="group text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100">
+<div class="w-16 h-16 mx-auto bg-orange-500/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-orange-500/20 transition-colors">
+<i class="ri-medal-line text-2xl text-orange-600"></i>
+</div>
+<h3 class="text-xl font-bold mb-4 text-gray-900">Lab Tested</h3>
+<p class="text-gray-600 leading-relaxed">
+Third-party tested for purity and potency with published lab results
+</p>
+</div>
+</div>
+
+<!-- Stats Section -->
+<div class="mt-20 bg-white rounded-3xl p-12 shadow-sm border border-gray-100">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+<div>
+<div class="text-4xl font-black text-primary mb-2">15,000+</div>
+<div class="text-gray-600 font-medium">Happy Customers</div>
+</div>
+<div>
+<div class="text-4xl font-black text-primary mb-2">4.8★</div>
+<div class="text-gray-600 font-medium">Average Rating</div>
+</div>
+<div>
+<div class="text-4xl font-black text-primary mb-2">98%</div>
+<div class="text-gray-600 font-medium">Reorder Rate</div>
+</div>
+<div>
+<div class="text-4xl font-black text-primary mb-2">24hr</div>
+<div class="text-gray-600 font-medium">Free Shipping</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Product Lineup -->
+<section id="products" class="py-32 bg-gray-900 text-white relative overflow-hidden">
+<div class="absolute inset-0 opacity-10">
+<div class="absolute top-0 left-0 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
+<div class="absolute bottom-0 right-0 w-96 h-96 bg-orange-500 rounded-full blur-3xl"></div>
+</div>
+<div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+<div class="text-center mb-20">
+<div class="inline-flex items-center px-4 py-2 bg-primary/20 border border-primary/30 rounded-full text-primary font-medium mb-6">
+<i class="ri-fire-line mr-2"></i>
+Premium Product Line
+</div>
+<h2 class="text-5xl lg:text-6xl font-black mb-8 leading-tight">
+Choose Your<br>
+<span class="gradient-text">Power Level</span>
+</h2>
+<div class="section-divider mx-auto mb-8"></div>
+<p class="text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+Scientifically formulated energy solutions for every lifestyle and performance goal
+</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+<!-- Extra Strength -->
+<div class="group bg-gradient-to-b from-gray-800 to-gray-900 rounded-3xl p-10 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-4 border border-gray-700 hover:border-primary/50 relative overflow-hidden">
+<div class="absolute top-0 right-0 bg-primary text-white px-4 py-2 rounded-bl-2xl font-bold text-sm">
+BESTSELLER
+</div>
+<div class="w-full h-80 mb-8 rounded-2xl overflow-hidden bg-gradient-to-b from-gray-700 to-gray-800 flex items-center justify-center relative">
+<img src="https://readdy.ai/api/search-image?query=Premium%20energy%20shot%20bottle%20with%20intense%20red%20and%20black%20packaging%20design%20featuring%20pomegranate%20graphics%2C%20professional%20product%20photography%20with%20dramatic%20studio%20lighting%2C%20high-end%20supplement%20branding%20with%20metallic%20accents%20and%20bold%20typography&width=300&height=400&seq=product-extra&orientation=portrait"
+alt="Extra Strength Energy Shot" class="w-4/5 h-auto object-contain floating-animation">
+<div class="absolute bottom-4 left-4 bg-primary/90 text-white px-3 py-1 rounded-full text-xs font-bold">
+250mg CAFFEINE
+</div>
+</div>
+<div class="space-y-6">
+<div>
+<h3 class="text-3xl font-black text-white mb-2">Extra Strength</h3>
+<p class="text-primary font-bold text-lg mb-4">Pomegranate Blast</p>
+<p class="text-gray-300 text-lg leading-relaxed">
+Maximum intensity formula for extreme workouts, long work sessions, and peak performance demands
+</p>
+</div>
+<div class="flex items-center justify-between text-sm text-gray-400">
+<span>✓ 250mg Caffeine</span>
+<span>✓ B-Complex</span>
+<span>✓ Zero Sugar</span>
+</div>
+<div class="pt-4">
+<div class="flex items-center justify-between mb-4">
+<span class="text-3xl font-black text-white">$24.99</span>
+<div class="flex items-center text-yellow-400">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<span class="ml-2 text-gray-400">(2,847)</span>
+</div>
+</div>
+<button class="w-full bg-primary hover:bg-red-600 text-white py-4 !rounded-button font-bold text-lg transition-all duration-300 whitespace-nowrap group-hover:scale-105">
+<span class="flex items-center justify-center">
+Add to Cart
+<i class="ri-shopping-cart-line ml-2"></i>
+</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Focus Blend -->
+<div class="group bg-gradient-to-b from-gray-800 to-gray-900 rounded-3xl p-10 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-4 border border-gray-700 hover:border-orange-500/50 relative overflow-hidden">
+<div class="absolute top-0 right-0 bg-orange-500 text-white px-4 py-2 rounded-bl-2xl font-bold text-sm">
+MOST POPULAR
+</div>
+<div class="w-full h-80 mb-8 rounded-2xl overflow-hidden bg-gradient-to-b from-gray-700 to-gray-800 flex items-center justify-center relative">
+<img src="https://readdy.ai/api/search-image?query=Premium%20energy%20shot%20bottle%20with%20vibrant%20orange%20and%20blue%20packaging%20design%20featuring%20citrus%20graphics%2C%20professional%20product%20photography%20with%20bright%20studio%20lighting%2C%20modern%20supplement%20branding%20with%20sleek%20metallic%20elements&width=300&height=400&seq=product-focus&orientation=portrait"
+alt="Focus Blend Energy Shot" class="w-4/5 h-auto object-contain floating-animation" style="animation-delay: -2s;">
+<div class="absolute bottom-4 left-4 bg-orange-500/90 text-white px-3 py-1 rounded-full text-xs font-bold">
+200mg CAFFEINE
+</div>
+</div>
+<div class="space-y-6">
+<div>
+<h3 class="text-3xl font-black text-white mb-2">Focus Blend</h3>
+<p class="text-orange-500 font-bold text-lg mb-4">Citrus Burst</p>
+<p class="text-gray-300 text-lg leading-relaxed">
+Perfect balance of energy and focus enhancement with nootropic ingredients for mental clarity
+</p>
+</div>
+<div class="flex items-center justify-between text-sm text-gray-400">
+<span>✓ 200mg Caffeine</span>
+<span>✓ Nootropics</span>
+<span>✓ L-Theanine</span>
+</div>
+<div class="pt-4">
+<div class="flex items-center justify-between mb-4">
+<span class="text-3xl font-black text-white">$22.99</span>
+<div class="flex items-center text-yellow-400">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<span class="ml-2 text-gray-400">(3,521)</span>
+</div>
+</div>
+<button class="w-full bg-orange-500 hover:bg-orange-600 text-white py-4 !rounded-button font-bold text-lg transition-all duration-300 whitespace-nowrap group-hover:scale-105">
+<span class="flex items-center justify-center">
+Add to Cart
+<i class="ri-shopping-cart-line ml-2"></i>
+</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Natural Energy -->
+<div class="group bg-gradient-to-b from-gray-800 to-gray-900 rounded-3xl p-10 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-4 border border-gray-700 hover:border-green-500/50 relative overflow-hidden">
+<div class="absolute top-0 right-0 bg-green-500 text-white px-4 py-2 rounded-bl-2xl font-bold text-sm">
+ALL NATURAL
+</div>
+<div class="w-full h-80 mb-8 rounded-2xl overflow-hidden bg-gradient-to-b from-gray-700 to-gray-800 flex items-center justify-center relative">
+<img src="https://readdy.ai/api/search-image?query=Premium%20energy%20shot%20bottle%20with%20natural%20green%20and%20purple%20packaging%20design%20featuring%20mixed%20berry%20graphics%2C%20professional%20product%20photography%20with%20soft%20natural%20lighting%2C%20organic%20supplement%20branding%20with%20earthy%20design%20elements&width=300&height=400&seq=product-natural&orientation=portrait"
+alt="Natural Energy Shot" class="w-4/5 h-auto object-contain floating-animation" style="animation-delay: -4s;">
+<div class="absolute bottom-4 left-4 bg-green-500/90 text-white px-3 py-1 rounded-full text-xs font-bold">
+150mg CAFFEINE
+</div>
+</div>
+<div class="space-y-6">
+<div>
+<h3 class="text-3xl font-black text-white mb-2">Natural Energy</h3>
+<p class="text-green-500 font-bold text-lg mb-4">Mixed Berry</p>
+<p class="text-gray-300 text-lg leading-relaxed">
+Gentle sustained energy from natural sources, perfect for daily use and sensitive individuals
+</p>
+</div>
+<div class="flex items-center justify-between text-sm text-gray-400">
+<span>✓ 150mg Caffeine</span>
+<span>✓ Organic</span>
+<span>✓ Adaptogenic</span>
+</div>
+<div class="pt-4">
+<div class="flex items-center justify-between mb-4">
+<span class="text-3xl font-black text-white">$19.99</span>
+<div class="flex items-center text-yellow-400">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<span class="ml-2 text-gray-400">(1,923)</span>
+</div>
+</div>
+<button class="w-full bg-green-500 hover:bg-green-600 text-white py-4 !rounded-button font-bold text-lg transition-all duration-300 whitespace-nowrap group-hover:scale-105">
+<span class="flex items-center justify-center">
+Add to Cart
+<i class="ri-shopping-cart-line ml-2"></i>
+</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- View All Products Button -->
+<div class="text-center mt-16">
+<button class="group bg-white text-gray-900 hover:bg-gray-100 px-12 py-5 !rounded-button font-bold text-xl transition-all duration-300 whitespace-nowrap hover:scale-105">
+<span class="flex items-center">
+View All Products
+<i class="ri-arrow-right-line ml-2 group-hover:translate-x-1 transition-transform"></i>
+</span>
+</button>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-20 bg-gray-900 text-white relative overflow-hidden">
+<div class="absolute inset-0" style="background-image: url('https://readdy.ai/api/search-image?query=Dynamic%20fitness%20motivation%20background%20with%20abstract%20energy%20patterns%2C%20modern%20geometric%20shapes%2C%20high-tech%20athletic%20performance%20theme%2C%20dark%20background%20with%20vibrant%20energy%20elements%2C%20professional%20sports%20marketing%20style&width=1920&height=600&seq=cta-bg&orientation=landscape'); background-size: cover; background-position: center;"></div>
+<div class="absolute inset-0 bg-gray-900/80"></div>
+<div class="relative z-10 max-w-4xl mx-auto text-center px-6">
+<h2 class="text-4xl lg:text-6xl font-black mb-6">
+Ready to Unlock Your<br>
+<span class="text-primary">Full Potential?</span>
+</h2>
+<p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+Join thousands of athletes, professionals, and high-achievers who trust NewTrition Shots for peak performance
+</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<button class="bg-primary hover:bg-red-600 text-white px-8 py-4 !rounded-button font-bold text-lg transition-colors whitespace-nowrap">
+Shop All Products
+</button>
+<button class="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 !rounded-button font-bold text-lg transition-all whitespace-nowrap">
+Subscribe & Save 20%
+</button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-16">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="space-y-4">
+<div class="flex items-center">
+<div class="w-8 h-8 flex items-center justify-center bg-white rounded mr-3">
+<span class="text-gray-900 font-bold text-lg">N</span>
+</div>
+<span class="font-['Pacifico'] text-xl">NEWTRITION</span>
+</div>
+<p class="text-gray-400">
+Premium energy supplements designed for peak performance and cognitive enhancement.
+</p>
+<div class="flex space-x-4">
+<a href="#" class="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-white transition-colors">
+<i class="ri-facebook-fill text-xl"></i>
+</a>
+<a href="#" class="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-white transition-colors">
+<i class="ri-instagram-line text-xl"></i>
+</a>
+<a href="#" class="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-white transition-colors">
+<i class="ri-twitter-x-line text-xl"></i>
+</a>
+</div>
+</div>
+<div>
+<h3 class="text-lg font-bold mb-4">Products</h3>
+<ul class="space-y-2">
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">Energy Shots</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">Focus Blends</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">Natural Energy</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">Bundles</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-bold mb-4">Company</h3>
+<ul class="space-y-2">
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">Our Science</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">Careers</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-bold mb-4">Support</h3>
+<ul class="space-y-2">
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">Shipping</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">Returns</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-700 mt-12 pt-8 text-center">
+<p class="text-gray-400">
+© 2024 NewTrition Shots. All rights reserved. | Designed for peak performance.
+</p>
+</div>
+</div>
+</footer>
+<script id="mobile-menu">
+document.addEventListener('DOMContentLoaded', function() {
+const menuButton = document.querySelector('.md\\:hidden button');
+const nav = document.querySelector('nav');
+if (menuButton && nav) {
+menuButton.addEventListener('click', function() {
+nav.classList.toggle('hidden');
+});
+}
+});
+</script>
+<script id="smooth-scroll">
+document.addEventListener('DOMContentLoaded', function() {
+const links = document.querySelectorAll('a[href^="#"]');
+links.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const target = document.querySelector(this.getAttribute('href'));
+if (target) {
+target.scrollIntoView({
+behavior: 'smooth',
+block: 'start'
+});
+}
+});
+});
+});
+</script>
+<script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.crossOrigin = "anonymous", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_t9tkQZJiyi2ps9zUYm8TDsL6qXo4YmZx0Ot5rBlAlEd', {
+        api_host: 'https://us.i.posthog.com',
+        autocapture: false,
+        capture_pageview: false,
+        capture_pageleave: false,
+        capture_performance: {
+            web_vitals: false,
+        },
+        rageclick: false,
+    })
+    window.shareKey = 'FQ9Tc_EXaAHRe10drBinUw';
+    window.host = 
+</script>
+</body>
+</html>
